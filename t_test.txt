@@ -1,0 +1,15 @@
+1. 패키지설치하기 
+cmd :  go get github.com/smartystreets/goconvey
+
+cd gopath\폴더\src\폴더\web3
+-- main.go가 있는 폴더 디렉토리 
+까지 가서 
+
+> goconvey
+실행 후
+
+브라우저에서 http://localhost:8080으로 접속 
+
+
+2. testify 
+go get github.com/stretchr/testify/assert
