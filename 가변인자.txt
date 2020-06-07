@@ -1,0 +1,17 @@
+가변인자를 넘겨주기
+
+1. slice를 넘겨주는 방법
+func f(nums []int){... }
+
+f([]int{1,2,3})
+
+
+2. ... 사용하기
+func f(lines ... string){... }
+
+f("aaa", "bbb", "ccc") 
+or 
+슬라이스를 넘겨주고 싶으면
+lines := []string("aaa", "bbb","ccc")
+f(liens...) 
+
