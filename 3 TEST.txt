@@ -5,3 +5,7 @@ helloworld_test.go 파일을 만든다.
 
 참고: https://github.com/jaeyeom/gogo/tree/master/hangul
 
+
+
+go test github.com/.../디렉터리 
+
